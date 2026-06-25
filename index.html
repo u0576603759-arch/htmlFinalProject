@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian recipe</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link-button {
+  background-color: rgb(143, 174, 233);
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 8px;
+  display: block;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img alt="If you cannot see the image.You'll see this writing" src="https://tse2.mm.bing.net/th/id/OIP.raLNKhMtYYCdLrw0uWhnDwHaEO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <h1>Italian Resturant</h1>
+        <nav>
+            <a href="#menu" class="links">Menu</a>
+            <a href="#orders" class="links">Orders</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Menu</h2>
+            <article>  
+                <img alt="If you cannot see the image.You'll see this writing" src="https://tse3.mm.bing.net/th/id/OIP.rG5TBC9vg7Agnvl8WD4p4QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <h3>Principal</h3>
+            <p>Puella in horto ambulat.Magister discipulis librum novum dat.Sol post montes occidit.</p>
+            </article>
+          <article>  
+                <img alt="If you cannot see the image.You'll see this writing" src="https://finefoodsblog.com/wp-content/uploads/2021/03/penne-allArrabbiata-1200.jpg">
+            <h3>Principal</h3>
+            <p>Puella in horto ambulat.Magister discipulis librum novum dat.Sol post montes occidit.</p>
+            </article>
+           <article>  
+                <img alt="If you cannot see the image.You'll see this writing" src="https://tse2.mm.bing.net/th/id/OIP.4tQkAVRWhr8FRMIPMxYHTAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <h3>Principal</h3>
+            <p>Puella in horto ambulat.Magister discipulis librum novum dat.Sol post montes occidit.</p>
+            </article>
+        </section>
+
+
+
+         <section>
+            <h2>Place Your Order</h2>
+            <form action="" method="">
+<label for="menu">Menu items:<input type="number" min="0" max="3" id="menu"></label><br>
+<label for="sides">Choose a side:<br><input type="radio" id="sides">Salad <br><input type="radio" id="sides">Tomato <br><input type="radio" id="sides">Olives</label><br>
+<label for="specials">Choose a special/s:<br><textarea id="specials" placeholder="Specials..." rows="2" cols="15"></textarea></label>
+            <input type="submit" value="Go To Checkout" class="link-button">
+</form>
+        </section>
+    </main>
+    <footer>
+        <p>Made with love by me, followed by your Codédex username.</p>
+    </footer>
+    </div>
+</body>
+</html>
